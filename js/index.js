@@ -17,7 +17,7 @@ function init() {
 };
 
 function receiveInitialCoins() {
-    initialCoins = Math.floor((Math.random() * 5) + 10);
+    initialCoins = Math.floor((Math.random() * 11) + 20);
 };
 
 function updateCoinDisplay() {
@@ -165,3 +165,4 @@ function prizeTable() {
             </div>`;
     };
 };
+
